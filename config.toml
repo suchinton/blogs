@@ -62,11 +62,6 @@ theme = "digitalgarden"
   name = 'Email'
   url = 'mailto:suchinton.2001@gmail.com'
   weight = 8
-[[menu.social]]
-  name = 'RSS'
-  url = '/articles/index.xml'
-  weight = 9
-
 
 # syntax highlight settings
 [markup]
