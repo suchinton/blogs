@@ -1,11 +1,11 @@
 baseURL = 'https://suchinton.github.io/'
 languageCode = 'en-us'
-title = 'Suchinton Blogs'
+title = 'Suchinton Corner 🚀'
 theme = "digitalgarden"
 
 [Params]
-  description = "My Digital Garden on the Internet"
-  images = ['/digital-garden-logo.png']
+  description = "Suchinton's blog post website"
+  images = ['/digital-garden-logo1.png']
   enableSearch = true
 
 # [Params.newsletter]
@@ -30,7 +30,7 @@ theme = "digitalgarden"
   params.header = true
   weight = 2
 [[menu.main]]
-  name = 'Articles'
+  name = "GSoC '23 Blogs ☀"
   url = '/articles'
   weight = 3
 [[menu.main]]
@@ -38,30 +38,26 @@ theme = "digitalgarden"
   url = '/portfolio'
   weight = 4
 [[menu.main]]
-  name = 'Stack'
-  url = '/stack'
-  weight = 5
-[[menu.main]]
   name = 'Links'
   params.header = true
-  weight = 6
+  weight = 5
 
 [[menu.social]]
   name = 'GitHub'
   url = 'https://github.com/suchinton'
-  weight = 2
+  weight = 1
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://linkedin.com'
-  weight = 3
+  url = 'https://www.linkedin.com/in/suchinton-chakravarty-3221a7219/'
+  weight = 2
 [[menu.social]]
   name = 'Instagram'
   url = 'https://instagram.com'
-  weight = 4
+  weight = 3
 [[menu.social]]
   name = 'Email'
   url = 'mailto:suchinton.2001@gmail.com'
-  weight = 8
+  weight = 4
 
 # syntax highlight settings
 [markup]

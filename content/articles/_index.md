@@ -1,3 +1,3 @@
 ---
-title: Articles
+title: GSoC '23 Blogs ☀
 ---
