@@ -1,11 +1,11 @@
-baseURL = 'https://suchinton.github.io/'
-languageCode = 'en-us'
-title = 'Suchinton Corner 🚀'
+baseURL = ""
+languageCode = "en-us"
+title = "Personal Digital Garden"
 theme = "digitalgarden"
 
 [Params]
-  description = "Suchinton's blog post website"
-  images = ['/digital-garden-logo1.png']
+  description = "My Digital Garden on the Internet"
+  images = ['/digital-garden-logo.png']
   enableSearch = true
 
 # [Params.newsletter]
@@ -30,7 +30,7 @@ theme = "digitalgarden"
   params.header = true
   weight = 2
 [[menu.main]]
-  name = "GSoC '23 Blogs ☀"
+  name = 'Articles'
   url = '/articles'
   weight = 3
 [[menu.main]]
@@ -38,26 +38,39 @@ theme = "digitalgarden"
   url = '/portfolio'
   weight = 4
 [[menu.main]]
+  name = 'Stack'
+  url = '/stack'
+  weight = 5
+[[menu.main]]
   name = 'Links'
   params.header = true
-  weight = 5
+  weight = 6
+[[menu.main]]
+  name = 'Polywork'
+  url = 'https://polywork.com'
+  weight = 7
 
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com/suchinton'
-  weight = 1
+  url = 'https://github.com'
+  weight = 2
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://www.linkedin.com/in/suchinton-chakravarty-3221a7219/'
-  weight = 2
+  url = 'https://linkedin.com'
+  weight = 3
 [[menu.social]]
   name = 'Instagram'
   url = 'https://instagram.com'
-  weight = 3
+  weight = 4
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:suchinton.2001@gmail.com'
-  weight = 4
+  url = 'mailto:user@example.org'
+  weight = 8
+[[menu.social]]
+  name = 'RSS'
+  url = '/articles/index.xml'
+  weight = 9
+
 
 # syntax highlight settings
 [markup]
