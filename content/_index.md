@@ -2,19 +2,14 @@
 title: Homepage
 ---
 
-# Hello 👋
+# Hello There! 
 
-**Welcome to my digital garden!**
+Welcome to my Blog Post Website!
 
-A digital garden is like a personal wiki and a knowledge database of thoughts and ideas. Similar to a traditional garden, a digital one will also container various kinds of content (plants), of which may even be unrelated to each other. Ideas are not refined, thoughts are not tailored. Here is an excellent write-up about the [history of digital gardens](https://maggieappleton.com/garden-history)
+I am thrilled to have you here and excited to share my journey with you. My name is Suchinton Chakravarty, and I am a participant of the Google Summer of Code 2023 program.
 
+Throughout the next few months, I will be working on a Qt5 Application to Visualize/ Simulate CAN bus traffic using Kuksa.val with Automotive Grade Linux (AGL), a project hosted by The Linux Foundation. AGL is a collaborative open-source project that aims to build a fully functional automotive platform that can serve as the de facto standard for the industry.
 
-Twitter, for some, is also equivalent to a digital garden. It lets you share thoughts and ideas with everyone. But how often do you go back to those tweets? Not often. That's why you need a space for your ideas on the internet **that you own**. Check out `Digital gardens let you cultivate your own little bit of the internet` [post](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/) by MIT technology review 
+I cannot wait to share my progress with you. By reading my weekly blog posts, you can follow along with me as I tackle the challenges and triumphs that come with GSoC.
 
-<hr />
-
-Building your own digital garden is not a fad. It's a necessity. Tools like Roam Research, Obsidian and Notion provided means to interlink content, even over a graphical way. Still not sold? Check out [The Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10) by Josh Branchaud.
-
-Start collecting your ideas 💡, curate thought provoking & interesting content 💬&nbsp; and learn.
-
-→ [Go to Documentation](/articles)
+Thank you for stopping by and I look forward to sharing my progress with you!

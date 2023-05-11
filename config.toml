@@ -1,10 +1,10 @@
-baseURL = ""
+baseURL = "https://suchinton.github.io/"
 languageCode = "en-us"
-title = "Personal Digital Garden"
+title = "Suchinton Corner 🌴"
 theme = "digitalgarden"
 
 [Params]
-  description = "My Digital Garden on the Internet"
+  description = "Suchinton's Blog Post Website"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 
@@ -42,34 +42,39 @@ theme = "digitalgarden"
   url = '/stack'
   weight = 5
 [[menu.main]]
-  name = 'Links'
+  name = 'Projects'
   params.header = true
   weight = 6
 [[menu.main]]
-  name = 'Polywork'
-  url = 'https://polywork.com'
+  name = '🚧 AGL-Kuksa.val-Visualiser'
+  url = 'https://github.com/suchinton/AGL-Kuksa.val-Visualiser'
   weight = 7
+[[menu.main]]
+  name = '🚧 eSim - Installers'
+  url = 'https://github.com/suchinton/eSim/tree/installers'
+  weight = 8
+
 
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com'
-  weight = 2
+  url = 'https://github.com/suchinton'
+  weight = 1
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://linkedin.com'
-  weight = 3
+  url = 'https://www.linkedin.com/in/suchinton-chakravarty-3221a7219/'
+  weight = 2
 [[menu.social]]
   name = 'Instagram'
   url = 'https://instagram.com'
-  weight = 4
+  weight = 3
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:user@example.org'
-  weight = 8
+  url = 'mailto:suchinton.2001@gmail.com'
+  weight = 5
 [[menu.social]]
   name = 'RSS'
   url = '/articles/index.xml'
-  weight = 9
+  weight = 6
 
 
 # syntax highlight settings
