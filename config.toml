@@ -1,6 +1,6 @@
 baseURL = "https://suchinton.github.io/"
 languageCode = "en-us"
-title = "Suchinton Corner 🌴"
+title = "Suchinton's Hub 🚀"
 theme = "digitalgarden"
 
 [Params]
@@ -30,29 +30,34 @@ theme = "digitalgarden"
   params.header = true
   weight = 2
 [[menu.main]]
-  name = 'Articles'
+  name = "About"
+  url = '/About'
+  weight = 4
+[[menu.main]]
+  name = "GSoC '23 Blog"
   url = '/articles'
-  weight = 3
+  weight = 4
 [[menu.main]]
   name = 'Portfolio'
   url = '/portfolio'
-  weight = 4
-[[menu.main]]
-  name = 'Stack'
-  url = '/stack'
   weight = 5
+
 [[menu.main]]
-  name = 'Projects'
+  name = 'GSoC links'
   params.header = true
   weight = 6
 [[menu.main]]
-  name = '🚧 AGL-Kuksa.val-Visualiser'
-  url = 'https://github.com/suchinton/AGL-Kuksa.val-Visualiser'
+  name = 'Acceptance Letter'
+  url = 'https://drive.google.com/file/d/1KM2ecIOdOfODWEzUHujxUlFb_73a9f91/view?usp=share_link'
   weight = 7
 [[menu.main]]
-  name = '🚧 eSim - Installers'
-  url = 'https://github.com/suchinton/eSim/tree/installers'
+  name = 'Proposal'
+  url = 'https://drive.google.com/file/d/1vix6iTDAy-HU---iU0tdi86pUtZtE-_t/view?usp=sharing'
   weight = 8
+[[menu.main]]
+  name = '🚧 Project'
+  url = ''
+  weight = 9
 
 
 [[menu.social]]
@@ -65,7 +70,7 @@ theme = "digitalgarden"
   weight = 2
 [[menu.social]]
   name = 'Instagram'
-  url = 'https://instagram.com'
+  url = 'https://www.instagram.com/suchinton_never_/'
   weight = 3
 [[menu.social]]
   name = 'Email'

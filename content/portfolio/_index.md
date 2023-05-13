@@ -1,4 +1,3 @@
 ---
-title: Portfolio (demo)
-description: User Experience built for you
+title: Portfolio -  To be updated soon! 
 ---

@@ -8,6 +8,13 @@ This repo hold the static content to be hosted on my [Blog Site](https://suchint
 hugo new content/articles/firstpost.md
 ```
 
+### To convert asset links into raw links
+
+```
+replace "github.com" with "raw.githubusercontent.com" 
+replace "/blob/" with "/"
+```
+
 ### To generate public static content for blog site [Git Sub-dir]()
 
 ```

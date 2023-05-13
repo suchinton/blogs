@@ -42,9 +42,8 @@
 
       {{ $title := .Params.title }}
       <h1 class="!mb-2">{{ $title }}</h1>
-
 	  {{ if .Date }}
-      <p class="text-sm text-slate-500 !mb-8"> Planted {{ $date }}
+      <p class="text-sm text-slate-500 !mb-8"> Posted {{ $date }}
 		{{ if ne $lastmod $date}}
 			<br/> Pruned {{ .Lastmod.Format "January 2, 2006" }}
         {{ end }}

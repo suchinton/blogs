@@ -2,14 +2,22 @@
 title: Homepage
 ---
 
-# Hello There! 
+# Hello There!🖐
 
-Welcome to my Blog Post Website!
+## Welcome to my Blog Post Website!
 
-I am thrilled to have you here and excited to share my journey with you. My name is Suchinton Chakravarty, and I am a participant of the Google Summer of Code 2023 program.
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/About/rocket.gif" height="auto" width="100">
+</div>
 
-Throughout the next few months, I will be working on a Qt5 Application to Visualize/ Simulate CAN bus traffic using Kuksa.val with Automotive Grade Linux (AGL), a project hosted by The Linux Foundation. AGL is a collaborative open-source project that aims to build a fully functional automotive platform that can serve as the de facto standard for the industry.
+I am thrilled to have you here and excited to share my journey with you. My name is Suchinton Chakravarty, and I am a participant of the [Google Summer of Code]() 2023 program.
 
-I cannot wait to share my progress with you. By reading my weekly blog posts, you can follow along with me as I tackle the challenges and triumphs that come with GSoC.
+Through the next few months, I will be working on a Qt5 Application to Visualize/ Simulate CAN bus traffic using Kuksa.val with Automotive Grade Linux ([AGL](https://www.automotivelinux.org/)), a project hosted by [The Linux Foundation](https://www.linuxfoundation.org/). 
+
+On this blog, you will find weekly updates highlighting my progress and experiences while working on my project for GSoC. I hope you find something valuable and exciting here and feel free to contact me via the provided links for queries and suggestions.
 
 Thank you for stopping by and I look forward to sharing my progress with you!
+
+→ [Want to know more about me?]()
+
+→ [GSoC Blog Posts]()
