@@ -1,8 +1,8 @@
 ---
 title: Semester-long Intern at FOSSEE, IIT Bombay (February - May 2023)
-date: 2021-12-18
+date: 2023-05-05
 images: 
-- https://raw.githubusercontent.com/suchinton/blogs/images/FOSSEE/Logo.png
+- https://raw.githubusercontent.com/suchinton/blogs/main/images/FOSSEE/Logo.png
 description: FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. 
 ---
 
