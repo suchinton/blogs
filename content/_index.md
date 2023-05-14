@@ -18,6 +18,6 @@ On this blog, you will find weekly updates highlighting my progress and experien
 
 Thank you for stopping by and I look forward to sharing my progress with you!
 
-→ [Want to know more about me?](/about)
+→ [Want to know more about me?](/about/)
 
 → [GSoC Blog Posts](/articles)
