@@ -26,6 +26,6 @@ I love talking about all things tech, science and sci-fi. From the coolest inven
   - Programming 
   - Desktop Application Development
 
-→ [View my Portfolio](/content/portfolio/_index.md): To be updated soon!
+→ [View my Portfolio](/content/portfolio): To be updated soon!
 
 
