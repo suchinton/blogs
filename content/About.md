@@ -1,7 +1,7 @@
 #
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="/images/Suchinton/Profile-Pic.jpg" height="auto" width="200" style="border-radius:20%;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/Suchinton/Profile-Pic.jpg" height="auto" width="200" style="border-radius:20%;">
   <p style="text-align: center;font-style: italic;">
     Suchinton Chakravarty <br> 
     Linux Enthusiast <br> 
