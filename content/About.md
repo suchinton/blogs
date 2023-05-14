@@ -13,7 +13,7 @@
 
 I am a 4th-year student at _[Amity University Noida](https://www.amity.edu)_, pursuing a B.Tech degree in Computer Science & Engineering. I am passionate about Linux and open-source software and love to tinker with new technologies and learn new things whenever I can.
 
-Currently, I am a contributor to GSoC '23 at AGL under The Linux Foundation, and working on implementing a Qt5 application that can simulate CAN Bus signals using Kuksa.val. You can find my weekly updates on the project by following the _[GSoC `23 Blog](/content/articles/_index.md)_ section. You can also subscribe to my _[RSS feed](/articles/index.xml)_ to get quick updates on the same 
+Currently, I am a contributor to GSoC '23 at AGL under The Linux Foundation, and working on implementing a Qt5 application that can simulate CAN Bus signals using Kuksa.val. You can find my weekly updates on the project by following the _[GSoC `23 Blog](/articles)_ section. You can also subscribe to my _[RSS feed](/articles/index.xml)_ to get quick updates on the same 
 
 I have also experience as a software developer intern at _[FOSSEE, IIT Bombay](https://fossee.in)_, where my main tasks revolved around implementing installer applications for the eSim platform. I gained a lot of knowledge about Flatpak packaging and sandboxed environments.
 
@@ -26,6 +26,6 @@ I love talking about all things tech, science and sci-fi. From the coolest inven
   - Programming 
   - Desktop Application Development
 
-→ [View my Portfolio](/content/portfolio): To be updated soon!
+→ [View my Portfolio](/portfolio): To be updated soon!
 
 
