@@ -246,7 +246,7 @@ So, we're able to connect to the server and send the necessary signals from the 
 
 ## What next?
 
-During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroaker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker)Kuksa-data broker (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
+During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker) (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
 
 I will also be updating my working repository on GitHub soon, and start work on coding the GUI elements of the Application.
 
