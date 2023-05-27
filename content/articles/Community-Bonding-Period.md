@@ -18,6 +18,10 @@ images:
 
 Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005. The program aims to bring together students and open-source organizations to work on real-world projects. The program has three phases: the community bonding period, the coding period, and the final evaluation period.
 
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP_img.png"height="auto" width="80%" style="border-radius:5%">
+</div>
+
 The community bonding period is the three weeks between GSoC student acceptance and the start of the coding date (May 4th - May 28th). During this period I engaged with my GSoC mentors, [Jan-Simon Möller](jsmoeller@linuxfoundation.org) ,[Walt Miner](wminer@linuxfoundation.org), [Scott Murray](smurray@konsulko.com) and [Marius Vlad](mvlad@collabora.com) and the rest of the AGL community. I used this period to get familiar with the various tools used in AGL and set up my work environment for the coding period. This also allowed me to better understand the requirements of my project.
 
 I also participated in the  [AGL Weekly Dev Meet](https://wiki.automotivelinux.org/dev-call-info) events to better understand the work done at AGL and its various technical groups.  
