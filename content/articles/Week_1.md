@@ -5,7 +5,7 @@ images:
 - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png
 ---
 
-## # Topics To Be Covered In This Post
+### # Topics To Be Covered In This Post
 - What I did this week
 	- Communication with Kuksa.val
 	- Skeleton code for GUI using PyQt5
@@ -132,4 +132,4 @@ Here are some of my targets for next week,
 
 [Week 2 Report →]() To be updated!
 
-[← Community Bonding Period](Community-Bonding-Period.md)
+[← Community Bonding Period](/articles/Community-Bonding-Period)
