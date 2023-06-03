@@ -248,7 +248,7 @@ VERBOSE: Set request with id 675a0cf6-fd12-47f3-8dd4-36ddf4b951bd for path: Vehi
 VERBOSE: SubscriptionHandler::publishForVSSPath: set value 12.0 for path Vehicle.Speed
 ```
 
-Yay! 
+*Yay!*
 
 So, we're able to connect to the server and send the necessary signals from the host. But this is only a working solution as none of the AGL demo apps listen on this specific ip `10.10.10.204` for kuksa updates. 
 
@@ -270,4 +270,4 @@ All in all, the Community bonding period proved to be extremely educational and 
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-client
 
- [Week 1 Report →](Week_1.md)
+ [Week 1 Report →](/articles/Week_1)
