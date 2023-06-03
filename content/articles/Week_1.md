@@ -132,4 +132,4 @@ Here are some of my targets for next week,
 
 [Week 2 Report →]() To be updated!
 
-[← Community Bonding Period](/articles/Community-Bonding-Period)
+[← Community Bonding Period](/articles/community-bonding-period)
