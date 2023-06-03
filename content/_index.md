@@ -7,7 +7,7 @@ title: Homepage
 ## Welcome to my Blog Post Website!
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/About/rocket.gif" height="auto" width="100">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/About/rocket.gif" height="auto" width="200">
 </div>
 
 I am thrilled to have you here and excited to share my journey with you. My name is Suchinton Chakravarty, and I am a participant of the [Google Summer of Code](https://summerofcode.withgoogle.com) 2023 program.
@@ -18,6 +18,5 @@ On this blog, you will find weekly updates highlighting my progress and experien
 
 Thank you for stopping by and I look forward to sharing my progress with you!
 
-→ [Want to know more about me?](/about/)
-
+→ [Want to know more about me?](About.md)
 → [GSoC Blog Posts](/articles)

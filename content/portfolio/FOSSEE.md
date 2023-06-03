@@ -16,8 +16,9 @@ FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools
     - Install python3 packages (Using the pip) in the user space
     - Extract binaries and libraries from pre-compiled packages
     - Compile packages from source and install them in the user space
+    
+	→ [View Project](https://github.com/suchinton/eSim/tree/installers)
 
-    → [View Project]()
+2. **eSim-Tool-Manager:** It works to resolve various eSim dependencies, such as KiCad, Ngspice, Verilator, Makerchip, GHDL, and OpenModelica by installing them as modules based on the user's preferences/ use cases. My work focused on adding general Linux support to the tool and writing install scripts for the various modules.
 
-1. **eSim-Tool-Manager:** It works to resolve various eSim dependencies, such as KiCad, Ngspice, Verilator,
-Makerchip, GHDL, and OpenModelica by installing them as modules based on the user's preferences/ use cases. My work focused on adding general Linux support to the tool and writing install scripts for the various modules.
+	→ [View Project](https://github.com/suchinton/eSim-tool-manager)

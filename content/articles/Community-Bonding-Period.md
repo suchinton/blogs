@@ -2,10 +2,10 @@
 title: GSoC Community Bonding Period
 date: 2023-05-26
 images: 
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/GSoC-at-AGL.png
+- https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP.png
 ---
 
-## # Topics to be covered in this post
+### # Topics To Be Covered In This Post
 - What is the Community bonding period?
 - What I did the past month
 - Challenges faced
@@ -14,25 +14,21 @@ images:
 
 ---
 
-## What is GSoC and what have I been up to during the CBP?
+## What is GSoC & What Have I Been Up To During The CBP?
 
 Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005. The program aims to bring together students and open-source organizations to work on real-world projects. The program has three phases: the community bonding period, the coding period, and the final evaluation period.
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP_img.png"height="auto" width="80%" style="border-radius:5%">
-</div>
-
-The community bonding period is the three weeks between GSoC student acceptance and the start of the coding date (May 4th - May 28th). During this period I engaged with my GSoC mentors, [Jan-Simon Möller](jsmoeller@linuxfoundation.org) ,[Walt Miner](wminer@linuxfoundation.org), [Scott Murray](smurray@konsulko.com) and [Marius Vlad](mvlad@collabora.com) and the rest of the AGL community. I used this period to get familiar with the various tools used in AGL and set up my work environment for the coding period. This also allowed me to better understand the requirements of my project.
+The community bonding period is the three weeks between GSoC student acceptance and the start of the coding date (May 4th - May 28th). During this period I engaged with my GSoC mentors, [Jan-Simon Möller](mailto:jsmoeller@linuxfoundation.org) ,[Walt Miner](mailto:wminer@linuxfoundation.org), [Scott Murray](mailto:smurray@konsulko.com) and [Marius Vlad](mailto:mvlad@collabora.com) and the rest of the AGL community. I used this period to get familiar with the various tools used in AGL and set up my work environment for the coding period. This also allowed me to better understand the requirements of my project.
 
 I also participated in the  [AGL Weekly Dev Meet](https://wiki.automotivelinux.org/dev-call-info) events to better understand the work done at AGL and its various technical groups.  
 
-## Setting up the build environment on a remote server
+## Setting Up The Build Environment
 
-On our first weekly GSoC meetings, Jan-Simon was kind enough to set us up with the remote servers we may need to build the AGL images as building on local hardware is a time-consuming process. 
+On our first weekly GSoC meetings, [Jan-Simon Möller](mailto:jsmoeller@linuxfoundation.org) was kind enough to set us up with the remote servers we may need to build the AGL images as building on local hardware is a time-consuming process. 
 
 During my first attempt at building the [AGL Flutter Instrument Cluster demo image](https://docs.automotivelinux.org/en/master/#01_Getting_Started/03_Build_and_Boot_guide_Profile/02_Flutter_Instrument_Cluster_%28qemu-x86%29/), I encountered an issue where there wasn't enough storage available to build new images on the server. However, this should soon be resolved after a cleanup job. So, till then I'll continue building on my local machine.  
 
-## Building AGL locally
+## Building AGL Locally
 
 On May 11th, I faced an AGL Build failure on Pop!\_OS 22.04 LTS to which I found the solution at [yocto Docs](https://docs.yoctoproject.org/3.2.3/ref-manual/ref-system-requirements.html#ubuntu-and-debian).
 
@@ -45,17 +41,17 @@ sudo apt-get build-dep qemu
 sudo apt-get remove oss4-dev
 ```
 
-## Working with Kuksa-val-server, Kuksa-client and AGL images
+## Working With Kuksa-val-server, Kuksa-client and AGL Images
 
 So in order the test my proposed implementation, I initially tried running the Docker build of the Kuksa-val server on my machine to manipulate values on the [IC](https://github.com/aakash-s45/ic) flutter application using my Demo application [AGL-Kuksa.val-Visualiser](https://github.com/suchinton/AGL-Kuksa.val-Visualiser/tree/main/Demo_1), while it was successfully setting the required values for `Vehicle.Speed`, the IC application would require a hot reload every time to update the values. 
 
-To overcome this, I and a doubt-clearing session with [Scott Murray](smurray@konsulko.com), which led me to use the [AGL Flutter Instrument Cluster demo image](https://docs.automotivelinux.org/en/master/#01_Getting_Started/03_Build_and_Boot_guide_Profile/02_Flutter_Instrument_Cluster_%28qemu-x86%29/), by using port forwarding and establishing a connection between the host and QEMU machine. This proved to be a failure since my host machine was able to ping the QEMU instance but not the other way around.
+To overcome this, I and a doubt-clearing session with [Scott Murray](mailto:smurray@konsulko.com), which led me to use the [AGL Flutter Instrument Cluster demo image](https://docs.automotivelinux.org/en/master/#01_Getting_Started/03_Build_and_Boot_guide_Profile/02_Flutter_Instrument_Cluster_%28qemu-x86%29/), by using port forwarding and establishing a connection between the host and QEMU machine. This proved to be a failure since my host machine was able to ping the QEMU instance but not the other way around.
 
-Then during the weekly GSoC meeting, [Marius Vlad](mvlad@collabora.com) cleared my doubts regarding this issue. He recommended I set up the communication interface using a bridge network and redirected me to the TAP network [guide](https://gist.github.com/extremecoders-re/e8fd8a67a515fee0c873dcafc81d811c) for testing out my implementation.
+Then during the weekly GSoC meeting, [Marius Vlad](mailto:mvlad@collabora.com) cleared my doubts regarding this issue. He recommended I set up the communication interface using a bridge network and redirected me to the TAP network [guide](https://gist.github.com/extremecoders-re/e8fd8a67a515fee0c873dcafc81d811c) for testing out my implementation.
 
 I modified the available script for my convenience and added comments to better understand the various steps.
 
-### Setting up a network bridge
+### Setting Up A Network Bridge
 
 *Note: script only works on the wireless interface*
 
@@ -138,12 +134,20 @@ iptables -t nat -A POSTROUTING -o $WIRELESS -j MASQUERADE
 iptables -A FORWARD -i $WIRELESS -o $BRIDGE -m state --state RELATED,ESTABLISHED -j ACCEPT
 ```
 
-### Starting the QEMU VM 
+### Starting The QEMU VM 
 
 For utilizing the bridge `br0` created using the script, the VM needs to be started with elevated privileges, and the specified arguments.
 
 ```bash
-sudo qemu-system-x86_64 -device virtio-net-pci,netdev=net0,mac=52:54:00:12:35:02 -netdev bridge,br=br0,id=net0 -drive file=agl-cluster-demo-platform-flutter-qemux86-64.ext4,if=virtio,format=raw -usb -usbdevice tablet -device virtio-rng-pci -snapshot -vga virtio -vnc :0 -soundhw hda -machine q35 -cpu kvm64 -cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt -enable-kvm -m 2048 -serial mon:vc -serial mon:stdio -serial null -kernel bzImage -append 'root=/dev/vda rw console=tty0 mem=2048M ip=dhcp oprofile.timer=1 console=ttyS0,115200n8 verbose fstab=no'
+sudo qemu-system-x86_64 -device virtio-net-pci,\
+netdev=net0,mac=52:54:00:12:35:02 -netdev bridge \
+,br=br0,id=net0 -drive file=agl-cluster-demo-platform-flutter-qemux86-64.ext4, \
+if=virtio,format=raw -usb -usbdevice tablet \
+-device virtio-rng-pci -snapshot -vga virtio -vnc :0 \
+-soundhw hda -machine q35 -cpu kvm64 \
+-cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt -enable-kvm \
+-m 2048 -serial mon:vc -serial mon:stdio -serial null -kernel bzImage \
+-append 'root=/dev/vda rw console=tty0 mem=2048M ip=dhcp oprofile.timer=1 console=ttyS0,115200n8 verbose fstab=no'
 ```
 
 We enter `root` as the username and get access to the AGL command line. The IP address of the VM is verified using the `ip address show` command.
@@ -170,7 +174,7 @@ root@qemux86-64:~# ip address show
     link/can 
 ```
 
-### Starting the Kuksa-val-server the in QEMU instance
+### Starting Kuksa-val-server In QEMU Instance
 
 By default Kuksa, and all the applications using it listen to the localhost ip `127.0.0.1` of the QEMU instance. Therefore,  to enable communication with the host OS, we need to run the server on the ip `10.10.10.204` in `--insecure` mode. 
 
@@ -178,7 +182,7 @@ By default Kuksa, and all the applications using it listen to the localhost ip `
 kuksa-val-server --address 10.10.10.204 --log-level VERBOSE --insecure
 ```
 
-### Connecting to Kuksa-val-server 
+### Connecting To Kuksa-val-server 
 
 On the Host machine, we use the [Kuksa-client](https://github.com/eclipse/kuksa.val/tree/master/kuksa-client) in `cli` mode to test the connection with the given arguments. Kuksa-client Python SDK is a library that allows us to interact with either kuksa-val-server or kuksa_databroker. 
 
@@ -248,15 +252,15 @@ Yay!
 
 So, we're able to connect to the server and send the necessary signals from the host. But this is only a working solution as none of the AGL demo apps listen on this specific ip `10.10.10.204` for kuksa updates. 
 
-## What next?
+## What Next?
 
-During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker) (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
+During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](mailto:smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker) (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
 
 I will also be updating my working repository on GitHub soon, and start work on coding the GUI elements of the Application.
 
 All in all, the Community bonding period proved to be extremely educational and very interactive, not just with the AGL community but also with my fellow GSoC contributors. I can't wait to get codding and look forward to overcoming the challenges that come my way.
 
-## Resources I found useful
+## Resources I Found Useful
 
 - https://docs.automotivelinux.org/en/master/
 - https://docs.yoctoproject.org/3.2.3/index.html
@@ -266,4 +270,4 @@ All in all, the Community bonding period proved to be extremely educational and 
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-client
 
---> [Week 1 Report](): To be updated!
+ [Week 1 Report →](Week_1.md)
