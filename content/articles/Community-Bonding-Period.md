@@ -270,4 +270,4 @@ All in all, the Community bonding period proved to be extremely educational and 
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-client
 
-[Week 1 Report →](/articles/week_1)
+[Week 1 Report →](/articles/week-1)

@@ -44,22 +44,27 @@ config = {
 We then run the QEMU instance the same as before (this time without a VNC viewer).
 
 ```bash
-sudo qemu-system-x86_64 -device \
-virtio-net-pci,netdev=net0,\
-mac=52:54:00:12:35:02 -netdev bridge,br=br0,id=net0 -drive \
-file=agl-cluster-demo-platform-flutter-qemux86-64.ext4 \
-,if=virtio,format=raw -usb -usbdevice tablet -device \
-virtio-rng-pci -snapshot -vga virtio -soundhw hda \
--machine q35 -cpu kvm64 -cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt -enable-kvm -m 2048 \
--serial mon:vc -serial mon:stdio -serial null \
--kernel bzImage -append 'root=/dev/vda rw console=tty0 \
-mem=2048M ip=dhcp oprofile.timer=1 console=ttyS0,115200n8 verbose fstab=no'
+sudo qemu-system-x86_64 -device virtio-net-pci,\
+netdev=net0, mac=52:54:00:12:35:02 -netdev \
+bridge,br=br0,id=net0 -drive \
+file=\
+agl-cluster-demo-platform-flutter-qemux86-64.ext4 \
+,if=virtio,format=raw -usb -usbdevice tablet \
+-device virtio-rng-pci -snapshot -vga virtio \
+-soundhw hda -machine q35 -cpu kvm64 \
+-cpu qemu64,+ssse3,+sse4.1,+sse4.2,+popcnt \
+-enable-kvm -m 2048 -serial mon:vc -serial \
+mon:stdio -serial null -kernel bzImage -append \
+'root=/dev/vda rw console=tty0 mem=2048M \
+ip=dhcpoprofile.timer=1 console=ttyS0,115200n8 \
+verbose fstab=no'
 ```
 
 ### Running Kuksa-val-server in QEMU: 
 
 ```bash
-kuksa-val-server --address 0.0.0.0 --insecure --log-level VERBOSE
+kuksa-val-server --address 0.0.0.0 --insecure \
+--log-level VERBOSE
 ```
 
 ###  Host Machine Command For Kuksa-client:
