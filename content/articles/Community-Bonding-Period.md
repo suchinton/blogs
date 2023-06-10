@@ -260,6 +260,8 @@ I will also be updating my working repository on GitHub soon, and start work on 
 
 All in all, the Community bonding period proved to be extremely educational and very interactive, not just with the AGL community but also with my fellow GSoC contributors. I can't wait to get codding and look forward to overcoming the challenges that come my way.
 
+---
+
 ## Resources I Found Useful
 
 - https://docs.automotivelinux.org/en/master/
@@ -269,5 +271,7 @@ All in all, the Community bonding period proved to be extremely educational and 
 - https://github.com/eclipse/kuksa.val
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-client
+
+---
 
 [Week 1 Report →](/articles/week-1)

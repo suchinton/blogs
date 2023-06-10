@@ -14,8 +14,7 @@ images:
 
 ---
 
-
-##  1) Communication With Kuksa.val
+##  # Communication With Kuksa.val
 
 Continuing with the progress made last week regarding communication with Kuksa-val-server using a bridged network, I tried to enable IP routing to make the traffic at 10.10.10.204 also accessible at localhost 127.0.0.1, but that did not work.
 
@@ -80,10 +79,10 @@ Next, we authorize the client using a `JWT` access token, usually found at `$HOM
 
 here is a look at how the [AGL-Kuksa.val-Visualiser](https://github.com/suchinton/AGL-Kuksa.val-Visualiser) application interacts with the [IC](https://github.com/aakash-s45/ic) demo application.
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/IC_control.gif" height="auto" width="100%" style="border-radius: 10px;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/IC_control.gif" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
-## 2) Navigation Input For IC Demo App
+## # Navigation Input For IC Demo App
 
 This is a work-in-progress widget to be added to the Instrument cluster tab of our GUI application, and seeks to provide the functionality to,
 - set current location (from)
@@ -103,22 +102,22 @@ The program has several methods such as 
 These methods are used for fetching suggestions from [OpenStreetMap](https://www.openstreetmap.org/#map=5/21.843/82.795), displaying suggestions, displaying the location on the map, updating the map, and creating HTML code for the map.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/navigation.png" height="auto" width="100%" style="border-radius: 10px;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/navigation.png" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
 The implementation of this feature can be improved in the coming weeks for setting the marker/ address more accurately.
 
-## 3) Application Preview
+## # Application Preview
 
 Finally, I got to start working on the skeletal code of the main application using Qt5. This is still a fairly bare-bones preview of how the interface would look and is highly subject to change in future revisions. 
 
 All new widgets created for the AGL demo apps will be added as separate modules to increase the customization and maintainability  of the whole application.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/design_preview.png" height="auto" width="100%" style="border-radius: 10px;">
+  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/design_preview.png" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
-## What Next?
+## # What Next?
 
 Here are some of my targets for next week,
 - Improve implementation of Kuksa-client 
@@ -126,15 +125,17 @@ Here are some of my targets for next week,
 - improve the navigation widget
 - finalize the design for the main application with my mentors
 
-## References:
+---
+
+## # References:
 
 - https://github.com/eclipse/kuksa.val/blob/master/kuksa-client/docs/examples/threaded.md
 - [https://www.howtogeek.com](https://www.howtogeek.com/225487/what-is-the-difference-between-127.0.0.1-and-0.0.0.0/#:~:text=In%20the%20context%20of%20servers%2C%200.0.0.0%20means%20all,will%20be%20reachable%20at%20both%20of%20those%20IPs.)
 - https://python-visualization.github.io/folium/
 - https://www.openstreetmap.org/help
 
-<br>
+---
 
-[Week 2 Report →]() To be updated!
+[Week 2 Report →](/articles/week-2) 
 
 [← Community Bonding Period](/articles/community-bonding-period)
