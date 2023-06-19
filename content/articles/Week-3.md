@@ -59,7 +59,7 @@ Initial support for the HVAC signals was introduced, and the [HVAC Dashboard](ht
 - Fixed the crash problem when the server is not found.
 
 ### # Demo
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week3/DemoVideo.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week3/DemoVideo.mp4" controls="controls" style="max-width: auto;">
 </video>
 
 ## # GitHub Readme
