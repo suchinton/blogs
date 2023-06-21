@@ -8,18 +8,6 @@ theme = "digitalgarden"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 
-# [Params.newsletter]
-#   title = ""
-#   description = "A curated weekly digest once a week to your mailbox"
-# 
-#   # Supports buttondown, substack and revue
-#   provider = "buttondown"
-# 
-#   # Buttondown - URL from share page; Refer: https://blog.buttondown.email/2019/10/11/adding-a-buttondown-subscription-form-to-webflow#getting-your-subscription-url
-#   # Substack - URL of the newsletter homepage; Example: https://on.substack.com/
-#   # Revue - Username
-#   path = "https://buttondown.email/api/emails/embed-subscribe/"
-
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -55,8 +43,8 @@ theme = "digitalgarden"
   url = 'https://drive.google.com/file/d/1vix6iTDAy-HU---iU0tdi86pUtZtE-_t/view?usp=sharing'
   weight = 8
 [[menu.main]]
-  name = '🚧 Project'
-  url = ''
+  name = 'Project'
+  url = 'https://github.com/suchinton/AGL_Demo_Control_Panel'
   weight = 9
 
 
@@ -66,7 +54,7 @@ theme = "digitalgarden"
   weight = 1
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://www.linkedin.com/in/suchinton-chakravarty-3221a7219/'
+  url = 'https://www.linkedin.com/in/suchinton-chakravarty/'
   weight = 2
 [[menu.social]]
   name = 'Instagram'
