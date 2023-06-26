@@ -67,4 +67,4 @@ This week I also added a new theme to add more contrast to each element and make
 ---
 [Week 5Report →]() To be Updated!
 
-[← Week 3 Report](articles/week-3)
+[← Week 3 Report](/articles/week-3)

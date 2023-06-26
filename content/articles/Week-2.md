@@ -180,6 +180,6 @@ The repository can be accessed using the provided link.
 - https://www.apache.org/licenses/LICENSE-2.0
 
 ---
-[Week 3 Report →](articles/week-3)
+[Week 3 Report →](/articles/week-3)
 
-[← Week 1 Report](articles/week-1)
+[← Week 1 Report](/articles/week-1)
