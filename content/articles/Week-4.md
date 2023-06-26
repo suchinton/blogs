@@ -1,6 +1,6 @@
 ---
-title: "Week 4"
-date: 2023-06-23T13:43:59+05:30
+title: "Week 4 Progress Report"
+date: 2023-06-23
 images:
 - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png
 ---
