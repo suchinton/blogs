@@ -92,6 +92,6 @@ I also built the [AGL-demo-platform](https://docs.automotivelinux.org/en/master/
 - https://github.com/aakash-s45/ic
 
 ---
-[Week 4 Report →]() To be Updated!
+[Week 4 Report →](articles/week-4)
 
 [← Week 2 Report](articles/week-2)
