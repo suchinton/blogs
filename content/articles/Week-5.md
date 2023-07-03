@@ -2,7 +2,7 @@
 title: "Week 5 Progress Report"
 date: 2023-07-01
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png
+- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
