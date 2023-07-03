@@ -65,6 +65,6 @@ This week I also added a new theme to add more contrast to each element and make
 - Improve GitHub README and documentation
 
 ---
-[Week 5Report →]() To be Updated!
+[Week 5 Report →](/articles/week-5)
 
 [← Week 3 Report](/articles/week-3)
