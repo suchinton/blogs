@@ -48,7 +48,7 @@ These Buttons are yet to assigned any actions and are highly subjective to chang
 
 ## # Navigation Page
 
-The Navigation Page was revisited to improve its usability and operations, It can now provide recommendations for `Source` and  `Destination` addresses for navigation, live as they are being typed. 
+The Navigation Page was revisited to improve its usability and operations, It can now provide recommendations for `Source` and  `Destination` addresses for navigation, live as they are being typed.
 
 <video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/Demo_Nav.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
@@ -63,7 +63,7 @@ The Navigation Page was revisited to improve its usability and operations, It ca
 
 ---
 ## # References:
-
+q
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/hritik-chouhan/HVAC_dashboard
 - [Stackoverflow: qss-border-radius-problem](https://stackoverflow.com/questions/59186106/qss-border-radius-problem-on-widget-when-zooming-in)
@@ -71,6 +71,6 @@ The Navigation Page was revisited to improve its usability and operations, It ca
 
 ---
 
-[Week 6 Report →]() To be Updated!
+[Week 6 Report →](/articles/week-6)
 
 [← Week 4 Report](/articles/week-4)
