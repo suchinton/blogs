@@ -101,6 +101,6 @@ export QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox"
 
 ---
 
-[Week 7 Report →]() To be Updated!
+[Week 7 Report →](/articles/week-7)
 
 [← Week 5 Report](/articles/week-5)
