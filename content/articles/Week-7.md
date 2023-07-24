@@ -134,6 +134,6 @@ echo "Installation complete!"
 
 ---
 
-[Week 8 Report →]() To be Updated!
+[Week 8 Report →](/articles/week-8)
 
 [← Week 6 Report](/articles/week-6)
