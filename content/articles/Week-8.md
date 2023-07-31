@@ -112,6 +112,6 @@ This week I also reviewed the documentation and some projects that utilize the `
 
 ---
 
-[Week 8 Report →]() To be updated
+[Week 9 Report →](/articles/week-9)
 
 [← Week 7 Report](/articles/week-7)
