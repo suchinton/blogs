@@ -42,6 +42,6 @@ For testing this on actual hardware, my mentors have arranged for a USB to CAN a
 
 ---
 
-[Week 10 Report →]() To be updated
+[Week 10 Report →](/articles/week-10)
 
 [← Week 8 Report](/articles/week-8)
