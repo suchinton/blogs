@@ -192,6 +192,6 @@ I also increased the sizes of buttons and sliders on the `IC Page` to make them 
 
 ---
 
-[Week 11 Report →]() To be updated
+[Week 12 Report →]() To be updated
 
-[← Week 9 Report](/articles/week-9)
+[← Week 10 Report](/articles/week-10)

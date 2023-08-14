@@ -47,6 +47,6 @@ I also added a toggle to switch between Kuksa signals and CAN bus signals, It wi
 
 ---
 
-[Week 11 Report →]() To be updated
+[Week 11 Report →](/articles/week-11) 
 
 [← Week 9 Report](/articles/week-9)
