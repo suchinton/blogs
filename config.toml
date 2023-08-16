@@ -2,6 +2,7 @@ baseURL = "https://suchinton.github.io/"
 languageCode = "en-us"
 title = "Suchinton's Hub 🚀"
 theme = "digitalgarden"
+googleAnalytics = "G-Z8MTHF56VX"
 
 [Params]
   description = "Suchinton's Blog Post Website"
