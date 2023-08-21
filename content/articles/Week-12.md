@@ -16,9 +16,9 @@ images:
 ---
 ## # How to use cannelloni
 
-For the purpose of testing the `AGL Demo Contorl Panel` for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni. [Cannelloni](https://github.com/mguentner/cannelloni) is a SocketCAN over Ethernet tunnel that uses UDP to transfer CAN frames between two machines. Here are the steps used to create a vcan interface using cannelloni between the host machine (laptop) and target machine (raspberry pi) running the AGL IVI Image:
+To test the `AGL Demo Control Panel` for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni. [Cannelloni](https://github.com/mguentner/cannelloni) is a SocketCAN over Ethernet tunnel that uses UDP to transfer CAN frames between two machines. Here are the steps used to create a vcan interface using cannelloni between the host machine (laptop) and target machine (raspberry pi) running the AGL IVI Image:
 
-_Note_ : Since I am using the `IVI` image for testing this, there is no need to install `cannelloni` and configure `can0 interface` on the target machine.
+_Note_: Since I am using the `IVI` image for testing this, there is no need to install `cannelloni` and configure the `can0 interface` on the target machine.
 
 1. On both machines, create the virtual CAN interface with the command:
 ```bash
@@ -120,7 +120,7 @@ def controls_clicked(self, button):
 
 ## # Test script for USB CAN adapters
 
-I also created a test script for the [USB CAN adapters](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) which allows us to send messages over the interface, however the downside is that the adapter does not show up as a CAN interface on the machine. Possible solutions, if we decide to go ahead with the adapters for demo purposes, we could create a small python script which routs all the incoming messages to the can0 interface.
+I also created a test script for the [USB CAN adapters](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) which allows us to send messages over the interface, however, the downside is that the adapter does not show up as a CAN interface on the machine. Possible solutions, if we decide to go ahead with the adapters for demo purposes, we could create a small Python script that routes all the incoming messages to the can0 interface.
 
 ### Test script
 
@@ -192,4 +192,4 @@ if __name__ == '__main__':
 
 [Week 13 Report →]() To be updated
 
-[← Week 11 Report](/articles/week-10)
+[← Week 11 Report](/articles/week-11)
