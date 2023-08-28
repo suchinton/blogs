@@ -33,7 +33,9 @@ However, I am facing setbacks while enabling SSL communication (Insecure Mode: F
 
 **Command line mode**:
 ```bash
-kuksa-client --ip 127.0.0.1 --port 8090 --protocol ws --cacertificate ./kuksa_certificates/CA.pem
+kuksa-client --ip 10.42.0.95 --port \
+8090 --protocol ws \
+--cacertificate ./kuksa_certificates/CA.pem
 ```
 
 **Control Panel Config**: I also tried modifying the configuration to specify the default config as follows,
