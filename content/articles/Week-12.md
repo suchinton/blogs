@@ -190,6 +190,6 @@ if __name__ == '__main__':
 
 ---
 
-[Week 13 Report →]() To be updated
+[Week 13 Report →](/articles/week-13)
 
 [← Week 11 Report](/articles/week-11)
