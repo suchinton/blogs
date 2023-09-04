@@ -66,6 +66,6 @@ While both of these allow for `Secure` and `Insecure` connections on the same ma
 
 ---
 
-[Week 14 Report →]() To be updated
+[Week 14 Report →](/articles/week-14)
 
 [← Week 12 Report](/articles/week-12)
