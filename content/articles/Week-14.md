@@ -8,7 +8,7 @@ images:
 - What I did this week
 	- Enabled Secure Mode 
 	- Switched to Carbon icons.
-	- Animated Navigation of Control Panel
+	- Animated Navigation of Control Panel[]()
 - What I plan to do next 
 
 ---
@@ -107,5 +107,3 @@ Additionally, I also added an animation to move in and out of the Dashboard such
 [Week 15 Report →](/articles/week-15)
 
 [← Week 13 Report](/articles/week-13)
-
-   
