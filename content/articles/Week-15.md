@@ -75,6 +75,6 @@ VSS Paths the are subscribe to are:
 
 ---
 
-[Week 16 Report →]() To be updated!
+[Week 16 Report →](/articles/week-16)
 
 [← Week 14 Report](/articles/week-14)
