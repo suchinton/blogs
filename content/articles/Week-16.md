@@ -64,6 +64,6 @@ _Note_: It is a known issue that every time the call-back function receives an u
 
 ---
 
-[Week 17 Report →]() To be Updated!
+[Week 17 Report →](/articles/week-17)
 
-[← Week 16 Report](/articles/week-16)
+[← Week 16 Report](/articles/week-15)
