@@ -45,7 +45,7 @@ This week I also added initial support for databroker. This is still a work in p
 ### Enable secure connection on target (Secure)
 
 ```bash
-databroker --address 0.0.0.0 --tls-cert /etc/kuksa-val/Server.pem --tls-private-key /etc/kuksa-val/Server.key --jwt-public-key /usr/lib/python3.10/site-packages/kuksa_certificates/jwt/jwt.key.pub --vss /usr/share/vss/vss.json
+databroker --address 0.0.0.0 --tls-cert /etc/kuksa-val/Server.pem --tls-private-key /etc/kuksa-val/Server.key --jwt-public-key /usr/lib/python3.10/site-packages/kuksa_certificates/jwt/jwt.key.pub --vss /usr/share/vss/vss_rel_3.1.1-agl.json
 ```
 
 ### Connecting to databroker secure mode
