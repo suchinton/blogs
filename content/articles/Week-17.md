@@ -1,5 +1,5 @@
 ---
-title: Week 17
+title: Week 17 Progress Report
 date: 2023-09-25T16:57:31+05:30
 images:
   - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week17/GSOC Report IMG.png
@@ -38,6 +38,6 @@ This week I also made a minor fix for the scaling issue of the Dashboard icons f
 
 ---
 
-[Week 18 Report →]() To be Updated!
+[Week 18 Report →](/articles/week-16)
 
 [← Week 16 Report](/articles/week-16)
