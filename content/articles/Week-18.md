@@ -42,13 +42,13 @@ This week I worked to simplify the settings page and add new icons to better sho
 ## Databroker
 
 This week I also added initial support for databroker. This is still a work in progress and even though the client is successfully authorized, the connection drops.
-### Enable secure connection on target (Secure)
+### Enable Secure Connection on Target
 
 ```bash
 databroker --address 0.0.0.0 --tls-cert /etc/kuksa-val/Server.pem --tls-private-key /etc/kuksa-val/Server.key --jwt-public-key /usr/lib/python3.10/site-packages/kuksa_certificates/jwt/jwt.key.pub --vss /usr/share/vss/vss_rel_3.1.1-agl.json
 ```
 
-### Connecting to databroker secure mode
+### Connecting to Databroker Secure Mode
 
 ```bash
 kuksa-client --cacertificate /home/suchinton/Repos/AGL_Demo_Control_Panel/assets/CA.pem --tls-server-name Server --protocol grpc --ip 10.42.0.95 --port 55555
@@ -60,7 +60,7 @@ kuksa-client --cacertificate /etc/kuksa-val/CA.pem --tls-server-name Server --pr
 Test Client> authorize eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJsb2NhbCBkZXYiLCJpc3MiOiJjcmVhdGVUb2tlbi5weSIsImF1ZCI6WyJrdWtzYS52YWwiXSwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjE3NjcyMjU1OTksInNjb3BlIjoiYWN0dWF0ZSBwcm92aWRlIn0.x-bUZwDCC663wGYrWCYjQZwQWhN1CMuKgxuIN5dUF_izwMutiqF6Xc-tnXgZa93BbT3I74WOMk4awKHBUSTWekGs3-qF6gajorbat6n5180TOqvNu4CXuIPZN5zpngf4id3smMkKOT699tPnSEbmlkj4vk-mIjeOAU-FcYA-VbkKBTsjvfFgKa2OdB5h9uZARBg5Rx7uBN3JsH1I6j9zoLid184Ewa6bhU2qniFt5iPsGJniNsKsRrrndN1KzthO13My44s56yvwSHIOrgDGbXdja_eLuOVOq9pHCjCtorPScgEuUUE4aldIuML-_j397taNP9Y3VZYVvofEK7AuiePTbzwxrZ1RAjK74h1-4ued3A2gUTjr5BsRlc9b7eLZzxLJkrqdfGAzBh_rtrB7p32TbvpjeFP30NW6bB9JS43XACUUm_S_RcyI7BLuUdnFyQDQr6l6sRz9XayYXceilHdCxbAVN0HVnBeui5Bb0mUZYIRZeY8k6zcssmokANTD8ZviDMpKlOU3t5AlXJ0nLkgyMhV9IUTwPUv6F8BTPc-CquJCUNbTyo4ywTSoODWbm3PmQ3Y46gWF06xqnB4wehLscBdVk3iAihQp3tckGhMnx5PI_Oy7utIncr4pRCMos63TnBkfrl7d43cHQTuK0kO76EWtv4ODEHgLvEAv4HA
 ```
 
-### Configuration in contolpanel
+### Configuration in Control Panel
 
 ```python
 import os
@@ -98,6 +98,6 @@ This week I also started refactoring the IC script and the `acceleration` functi
 
 ---
 
-[Week 18 Report →](/articles/week-16)
+[Week 19 Report →](/articles/week-19)
 
-[← Week 16 Report](/articles/week-16)
+[← Week 17 Report](/articles/week-17)

@@ -38,6 +38,6 @@ This week I also made a minor fix for the scaling issue of the Dashboard icons f
 
 ---
 
-[Week 18 Report →](/articles/week-16)
+[Week 18 Report →](/articles/week-18)
 
 [← Week 16 Report](/articles/week-16)
