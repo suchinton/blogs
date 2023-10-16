@@ -45,11 +45,13 @@ The main UI of the `AGL Demo Control Panel` saw some quality and functional chan
 
 <video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week20/VID1.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
+
 ---
+
 ## # What Next?
 
 - Improve handling for script toggle for IC page.
-- Update documentation.
+- Update docugit push mentation.
 - Continue pushing code to Gerrit and issue patched as required.
 
 ---
