@@ -40,6 +40,6 @@ This week, grpc/databroker support was added to the `AGL demo control panel`. T
 
 ---
 
-[Week 20 Report →]() To be Updated!
+[Week 20 Report →](/articles/week-20) 
 
 [← Week 18 Report](/articles/week-18)
