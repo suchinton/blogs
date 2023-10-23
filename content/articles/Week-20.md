@@ -51,11 +51,11 @@ The main UI of the `AGL Demo Control Panel` saw some quality and functional chan
 ## # What Next?
 
 - Improve handling for script toggle for IC page.
-- Update docugit push mentation.
+- Update documentation.
 - Continue pushing code to Gerrit and issue patched as required.
 
 ---
 
-[Week 21 Report →]() To be Updated!
+[Week 21 Report →](/articles/week-21)
 
 [← Week 19 Report](/articles/week-19)
