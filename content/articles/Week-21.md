@@ -57,6 +57,6 @@ This week I also updated the documentation and README to include updated screen-
 
 ---
 
-[Week 22 Report →]() To be Updated!
+[Week 22 Report →](/articles/week-22)
 
 [← Week 20 Report](/articles/week-20)
