@@ -5,8 +5,6 @@ images:
 - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week8/GSOC Report IMG.png
 ---
 
-
-
 ### # Topics To Be Covered In This Post
 - What I did this week
 	- Uploaded the repo to Gerrit as a patch set, [link](https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/+/29060/1).  
@@ -20,13 +18,13 @@ images:
 
 ## # Pushing To Gerrit
 
-I was able to push all of my progress to Gerrit this week despite a few challenges, where every time I would try to clone the `agl-demo-control-panel` repo, I would get the following message:
+I was able to push all of my progress to Gerrit this week despite a few challenges, every time I would try to clone the `agl-demo-control-panel` repo, I would get the following message:
 
 ```bash
 Cloning into 'agl-demo-control-panel'... suchinton2001@gerrit.automotivelinux.org: Permission denied (publickey). fatal: Could not read from remote repository.
 ```
 
-Initially, I thought this was due to the permissions not being set properly for the public and private keys files, but as it turns out OpenSSH 8.8 disabled RSA signatures using the SHA-1 hash algorithm. so I ended up creating a new key set using `ed25519`.
+Initially, I thought this was due to the permissions not being set properly for the public and private key files, but as it turns out OpenSSH 8.8 disabled RSA signatures using the SHA-1 hash algorithm. so I ended up creating a new key set using `ed25519`.
 
 ```bash
 ssh-keygen -t ed25519   

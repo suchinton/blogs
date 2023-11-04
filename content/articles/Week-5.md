@@ -18,10 +18,10 @@ images:
 
 ## # IC Acceleration Button
 
-This week I updated the Acceleration button to operate on a `Pressed` and `Released` event instead of the previously used `Clicked` event, this allows us to implement a both `Acceleration` and `Deceliration` proportionally  for the vehicle's **Speed** and the **Engine RPM**. 
+This week I updated the Acceleration button to operate on a `Pressed` and `Released` event instead of the previously used `Clicked` event, this allows us to implement both `Acceleration` and `Deceleration` proportionally  for the vehicle's **Speed** and the **Engine RPM**. 
 
 Triggers for this operation can be done by the following inputs:
-- Touch & Hold (On a touch friendly device)
+- Touch & Hold (On a touch-friendly device)
 - Click and hold
 - Space bar (Can be mapped to a different key as well)
 
@@ -32,11 +32,11 @@ Triggers for this operation can be done by the following inputs:
 
 I also started work on the Script mode which feeds relevant values to the demo applications when a user is not interacting with the [AGL_Demo_Control_Panel](https://github.com/suchinton/AGL_Demo_Control_Panel). 
 
-Next week, I will extensively work on this to present exciting sequences not just for the demo apps but also the control panel itself.
+Next week, I will extensively work on this to present exciting sequences not just for the demo apps but also for the control panel itself.
 
 ## # Steering Wheel Controls
 
-This week also saw inclusion of dummy inputs for the Steering Wheel Controls, i.e.: 
+This week also saw the inclusion of dummy inputs for the Steering Wheel Controls, i.e.: 
 - Volume Up
 - Volume Down
 - Next Track
@@ -44,7 +44,7 @@ This week also saw inclusion of dummy inputs for the Steering Wheel Controls, i.
 - Stop/ Play
 - Accept Call/ Decline Call
 
-These Buttons are yet to assigned any actions and are highly subjective to change after a discussion with my mentors but it serves to showcase the various operations the control panel can provide.
+These Buttons are yet to be assigned any actions and are highly subject to change after a discussion with my mentors but it serves to showcase the various operations the control panel can provide.
 
 ## # Navigation Page
 
@@ -57,13 +57,13 @@ The Navigation Page was revisited to improve its usability and operations, It ca
 ## # What Next?
 
 - Make Kuksa Subscription Scripts to view the changes being made. Since not all demo applications subscribe to their corresponding VSS signals.
-- Introduce some better error handling for when the server is not connected or found on the specified Ip address.
+- Introduce some better error handling for when the server is not connected or found on the specified IP address.
 - Improve GitHub README and documentation
 
 
 ---
 ## # References:
-q
+
 - https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server
 - https://github.com/hritik-chouhan/HVAC_dashboard
 - [Stackoverflow: qss-border-radius-problem](https://stackoverflow.com/questions/59186106/qss-border-radius-problem-on-widget-when-zooming-in)

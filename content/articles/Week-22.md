@@ -71,6 +71,6 @@ This week I also added the ability to save user preferences for the next session
 
 ---
 
-[GSoC Final Report →]() To be Updated!
+[GSoC Final Report →](/articles/final-report)
 
 [← Week 21 Report](/articles/week-21)

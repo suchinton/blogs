@@ -18,7 +18,7 @@ images:
 
 Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005. The program aims to bring together students and open-source organizations to work on real-world projects. The program has three phases: the community bonding period, the coding period, and the final evaluation period.
 
-The community bonding period is the three weeks between GSoC student acceptance and the start of the coding date (May 4th - May 28th). During this period I engaged with my GSoC mentors, [Jan-Simon Möller](mailto:jsmoeller@linuxfoundation.org) ,[Walt Miner](mailto:wminer@linuxfoundation.org), [Scott Murray](mailto:smurray@konsulko.com) and [Marius Vlad](mailto:mvlad@collabora.com) and the rest of the AGL community. I used this period to get familiar with the various tools used in AGL and set up my work environment for the coding period. This also allowed me to better understand the requirements of my project.
+The community bonding period is the three weeks between GSoC student acceptance and the start of the coding date (May 4th - May 28th). During this period I engaged with my GSoC mentors, [Jan-Simon Möller](mailto:jsmoeller@linuxfoundation.org) ,[Walt Miner](mailto:wminer@linuxfoundation.org), [Scott Murray](mailto:smurray@konsulko.com), [Marius Vlad](mailto:mvlad@collabora.com), and the rest of the AGL community. I used this period to get familiar with the various tools used in AGL and set up my work environment for the coding period. This also allowed me to better understand the requirements of my project.
 
 I also participated in the  [AGL Weekly Dev Meet](https://wiki.automotivelinux.org/dev-call-info) events to better understand the work done at AGL and its various technical groups.  
 
@@ -30,9 +30,9 @@ During my first attempt at building the [AGL Flutter Instrument Cluster demo ima
 
 ## Building AGL Locally
 
-On May 11th, I faced an AGL Build failure on Pop!\_OS 22.04 LTS to which I found the solution at [yocto Docs](https://docs.yoctoproject.org/3.2.3/ref-manual/ref-system-requirements.html#ubuntu-and-debian).
+On May 11th, I faced an AGL Build failure on Pop!\_OS 22.04 LTS to which I found the solution at [Yocto Docs](https://docs.yoctoproject.org/3.2.3/ref-manual/ref-system-requirements.html#ubuntu-and-debian).
 
-The error was due to the `oss4-dev` package installed on my system, which resulted in QEMU build failures due to the package installing its own custom `/usr/include/linux/soundcard.h` on the Debian systems.
+The error was due to the `oss4-dev` package installed on my system, which resulted in QEMU build failures due to the package installing its custom `/usr/include/linux/soundcard.h` on the Debian systems.
 
 This was resolved by resolving the packages.
 
@@ -45,7 +45,7 @@ sudo apt-get remove oss4-dev
 
 So in order the test my proposed implementation, I initially tried running the Docker build of the Kuksa-val server on my machine to manipulate values on the [IC](https://github.com/aakash-s45/ic) flutter application using my Demo application [AGL-Kuksa.val-Visualiser](https://github.com/suchinton/AGL-Kuksa.val-Visualiser/tree/main/Demo_1), while it was successfully setting the required values for `Vehicle.Speed`, the IC application would require a hot reload every time to update the values. 
 
-To overcome this, I and a doubt-clearing session with [Scott Murray](mailto:smurray@konsulko.com), which led me to use the [AGL Flutter Instrument Cluster demo image](https://docs.automotivelinux.org/en/master/#01_Getting_Started/03_Build_and_Boot_guide_Profile/02_Flutter_Instrument_Cluster_%28qemu-x86%29/), by using port forwarding and establishing a connection between the host and QEMU machine. This proved to be a failure since my host machine was able to ping the QEMU instance but not the other way around.
+To overcome this, I and a doubt-clearing session with [Scott Murray](mailto:smurray@konsulko.com), which led me to use the [AGL Flutter Instrument Cluster demo image](https://docs.automotivelinux.org/en/master/#01_Getting_Started/03_Build_and_Boot_guide_Profile/02_Flutter_Instrument_Cluster_%28qemu-x86%29/), by using port forwarding and establishing a connection between the host and the QEMU machine. This proved to be a failure since my host machine was able to ping the QEMU instance but not the other way around.
 
 Then during the weekly GSoC meeting, [Marius Vlad](mailto:mvlad@collabora.com) cleared my doubts regarding this issue. He recommended I set up the communication interface using a bridge network and redirected me to the TAP network [guide](https://gist.github.com/extremecoders-re/e8fd8a67a515fee0c873dcafc81d811c) for testing out my implementation.
 
@@ -174,7 +174,7 @@ root@qemux86-64:~# ip address show
     link/can 
 ```
 
-### Starting Kuksa-val-server In QEMU Instance
+### Starting Kuksa-val-server In the QEMU Instance
 
 By default Kuksa, and all the applications using it listen to the localhost ip `127.0.0.1` of the QEMU instance. Therefore,  to enable communication with the host OS, we need to run the server on the ip `10.10.10.204` in `--insecure` mode. 
 
@@ -254,7 +254,7 @@ So, we're able to connect to the server and send the necessary signals from the 
 
 ## What Next?
 
-During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](mailto:smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker) (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & GRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
+During the Weekly GSoC and Dev meetings of AGL, [Scott Murray](mailto:smurray@konsulko.com) pointed out that soon AGL will be moving to [Kuksa-databroker](https://github.com/eclipse/kuksa.val/tree/master/kuksa_databroker) (written in RUST) from the currently used [Kuksa-val-sever](https://github.com/eclipse/kuksa.val/tree/master/kuksa-val-server). This should not affect my implementation as Kuksa-client works with both ( using Web-sockets & and gRPC). This will give us the window to update our implementation and come to a working solution by the time the coding period starts. 
 
 I will also be updating my working repository on GitHub soon, and start work on coding the GUI elements of the Application.
 

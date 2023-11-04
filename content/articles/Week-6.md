@@ -41,7 +41,7 @@ The layout of these controls will be further improved by making use of custom ic
 
 ## # Settings Page and Error handling
 
-I also revised the styling of the QLineEdit and QPushbuttons for the the settings page to make it look cleaner and make the text more legible. This also includes placeholder text for the input fields.
+I also revised the styling of the QLineEdit and QPushbuttons for the settings page to make it look cleaner and make the text more legible. This also includes placeholder text for the input fields.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-12.png"height="auto" width="100%" style="border-radius: 10px;">
@@ -91,7 +91,7 @@ export QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox"
 
 - Tweak the visuals to better reflect the states of  focus/ check and click events
 - Add custom icons/ images to replicate the steering wheel layout
-- Test the AGL Demo Control Panel alongside AGL images on target machine, Raspberry pi 4 B
+- Test the AGL Demo Control Panel alongside AGL images on the target machine, Raspberry Pi 4 B
 
 ---
 ## # References:

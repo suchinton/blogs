@@ -16,7 +16,7 @@ images:
 ---
 ## # How to use cannelloni
 
-To test the `AGL Demo Control Panel` for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni. [Cannelloni](https://github.com/mguentner/cannelloni) is a SocketCAN over Ethernet tunnel that uses UDP to transfer CAN frames between two machines. Here are the steps used to create a vcan interface using cannelloni between the host machine (laptop) and target machine (raspberry pi) running the AGL IVI Image:
+To test the `AGL Demo Control Panel` for sending CAN messages to the target machine, we can create a virtual CAN interface using cannelloni. [Cannelloni](https://github.com/mguentner/cannelloni) is a SocketCAN over Ethernet tunnel that uses UDP to transfer CAN frames between two machines. Here are the steps used to create a vcan interface using Cannelloni between the host machine (laptop) and target machine (Raspberry Pi) running the AGL IVI Image:
 
 _Note_: Since I am using the `IVI` image for testing this, there is no need to install `cannelloni` and configure the `can0 interface` on the target machine.
 
@@ -34,12 +34,12 @@ sudo ip link set up can0
 cannelloni -I can0 -R <raspberry pi IP address> -L \
 <laptop IP address> -S 20000 -D 20000
 ```
-5. On the other machine (e.g. the raspberry pi), run cannelloni as a client with the command: 
+5. On the other machine (e.g. the Raspberry Pi), run cannelloni as a client with the command: 
 ```bash
 cannelloni -I can0 -R <laptop IP address> -L \
 <raspberry pi IP address> -S 20000 -D 20000
 ```
-6. You should now be able to send and receive CAN frames between the two machines using the vcan interface and cannelloni.
+6. You should now be able to send and receive CAN frames between the two machines using the vcan interface and Cannelloni.
 ### To test connection
 
 On the sender machine (Laptop): 

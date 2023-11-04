@@ -24,8 +24,8 @@ Changes pushed so far:
 - 29243: agl-demo-control-panel: Upload Draft 1 documentation | https://gerrit.automotivelinux.org/gerrit/c/AGL/documentation/+/29243
 ## # Testing Qt IVI
 
-This week when testing the Qt IVI image on the Pi I noticed that the can0 interface does not show when using the shell, however I am still able to still configure the can0 interface and cannelloni and kuksa by ssh-ing into the image. 
-## # Fixing scaling issue
+This week when testing the Qt IVI image on the Pi I noticed that the can0 interface does not show when using the shell, however, I am still able to configure the can0 interface and cannelloni and kuksa by ssh-ing into the image. 
+## # Fixing the scaling issue
 
 This week I also made a minor fix for the scaling issue of the Dashboard icons for the control panel by using QPainter to scale up the images. 
 

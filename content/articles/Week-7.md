@@ -58,7 +58,7 @@ images/raspberrypi4-64/ $HOME/AGL_Images/IC_rasp/
 
 ### Flashing Image to SD Card
 
-While the documentation provides instructions on how to flash the AGL image onto an SD card, I was unable to get it to boot using the provided steps. It is possible that it was a human error on my part, however, I found it much simpler to use the raspberry [pi imager tool](https://www.raspberrypi.com/software/) to flash the image for now.
+While the documentation provides instructions on how to flash the AGL image onto an SD card, I was unable to get it to boot using the provided steps. It is possible that it was a human error on my part, however, I found it much simpler to use the Raspberry Pi to flash the image for now.
 
 ### Connecting to the Pi using Ethernet
 
@@ -81,7 +81,7 @@ arp -a
 ssh root@<ip-address-raspberrypi>
 ```
 
-After successfully `ssh`-ing into the session, we kill the existing `kuksa` service (since it runs on localhost) and restart `kuksa-val-server` on special ip address `0.0.0.0`.
+After successfully `ssh`-ing into the session, we kill the existing `kuksa` service (since it runs on localhost) and restart `kuksa-val-server` on special IP address `0.0.0.0`.
 
 ```bash
 pkill kuksa

@@ -20,14 +20,14 @@ This week I added support for subscribing to `VSS Signals` for the `IC` and `HVA
 
 ## # Refactoring Toggles
 
-I also replaced the checkbox inputs for `Insecure Mode` and `CAN to Kuksa` toggles to animated toggle switches, Making the inputs more touch friendly ans easy to understand.
+I also replaced the checkbox inputs for `Insecure Mode` and `CAN to Kuksa` toggles with animated toggle switches, Making the inputs more touch friendly and easy to understand.
 
 <video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week13/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ## # Kuksa-client 0.4.0
 
-This week also saw slight modifications made to the `Kuksa_Insatance` module to support the newly released `kuksa-client` version 0.4.0. .
+This week also saw slight modifications made to the `Kuksa_Insatance` module to support the newly released `kuksa-client` version 0.4.0.
 
 However, I am facing setbacks while enabling SSL communication (Insecure Mode: False) between the host and the server when running on separate machines connected via LAN.
 
