@@ -2,7 +2,7 @@
 title: "Week 4 Progress Report"
 date: 2023-06-23
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/GSOC Report IMG.png
+- /images/WPR/Week4/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -30,7 +30,7 @@ More signals can be added after further discussion with my mentors.
 
 ## # Animations & Window handles
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week4/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ## # Config
@@ -46,15 +46,15 @@ I have also added bindings for enabling and disabling the secure and insecure mo
 This week I also added a new theme to add more contrast to each element and make the text and icons more legible.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/IMG3.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week4/IMG3.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week4/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week4/IMG2.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week4/IMG2.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ---

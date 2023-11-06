@@ -2,7 +2,7 @@
 title: GSoC 2023 Final Report
 date: 2023-10-31
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Final-Report/Final.png
+  - /images/WPR/Final-Report/Final.png
 ---
 ## Introduction
 
@@ -14,6 +14,8 @@ You can find the proposal for this project [here](https://summerofcode.withgoogl
 
 ---
 ## Project Overview
+
+![image](/images/WPR/Final-Report/Application-Logic.png)
 
 The objective of this project was to develop a Qt5 application that simulates CAN bus traffic using Kuksa.val to integrate with the AGL Demo platform. The application developed allows the end-users to emit signals using the kuksa-client SDK and Python-can to visualize and interact with AGL Demo applications, such as the IC, IVI, HVAC, and the Green Machine, that display CAN data through Kuksa.val.
 
@@ -38,15 +40,15 @@ The objective of this project was to develop a Qt5 application that simulates CA
 
 [→ Community Bonding Period](/articles/community-bonding-period): During the GSoC 2023 community bonding period, I had a fantastic learning experience. I got to know my GSoC mentors and the AGL community, familiarized myself with AGL tools, and set up my working environment. I also tackled some technical challenges and ventured into working with Kuksa-val-server, Kuksa-client, and AGL images. Overall, the community bonding period was a great start.
 
-[→ Coding Period](/articles/week-1): The coding period of GSoC is a dedicated timeframe during which the accepted contributors work on their projects. The standard coding period is **12 weeks**. However, myself and my mentors saw it fit to have a longer coding period to complete our **Large-Scale project**, up to **22 weeks**.
+[→ Coding Period](/articles/week-1): The coding period of GSoC is a dedicated timeframe during which the accepted contributors work on their projects. The standard coding period is **12 weeks**. However, my mentors and I saw it fit to have a longer coding period of **22 weeks** to complete our **Large-Scale project**.
 
 During this period, I was able to:
 
 - Write and submit my code to Gerrit/GitHub.
-- Issue patches and bug fixes based on Review.
+- Issue patches and bug fixes based on review.
 - Regularly communicate with my mentors. (_Mondays_)
-- Participate in the AGl and GSoC community. (_Thursdays_)
-- Submit my work for midterm and final evaluations
+- Participate in the AGL and GSoC community. (_Thursdays_)
+- Submit my work for mid-term and final evaluations.
 
 Below I have compiled all my Weekly Progress Reports for the duration of the coding period of _GSoC '23_.
 
@@ -79,8 +81,8 @@ Below I have compiled all my Weekly Progress Reports for the duration of the cod
 - I was able to learn about the OpenEmbedded Yocto Project and create layers and recipes for our specific application.
 - I learnt how to create quality applications using [Qt](https://www.qt.io/), [PyQt](https://wiki.python.org/moin/PyQt).
 - Learnt about [gRPC](https://grpc.io/) and [WebSocket](https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/) and how they are implemented in Kuksa.val and its Python SDK.
-- I had the wonderful opportunity to test my application and AGL images on a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) kindly provided by my AGL mentors. I was also provided a pair of [CAN to USB](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) adapters for testing CAN signals, while we ended up not using it for our demo it did help me learn more about CAN interfaces, Linux kernel modules, and Python-can.
-- I was also able to test my application using the [agl-ivi-demo-control-panel]() image on ARM, X86 using QEMU/KVM. We also ended up getting a [docker image]() to work for the agl-demo-control-panel
+- I had the opportunity to test my application and AGL images on a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) kindly provided by my AGL mentors. I was also provided a pair of [CAN to USB](https://www.seeedstudio.com/USB-CAN-Analyzer-p-2888.html) adapters for testing CAN signals. While we ended up not using it for our demo it did help me learn more about CAN interfaces, Linux kernel modules, and Python-can.
+- I was also able to test my application using the [agl-ivi-demo-control-panel]() image on ARM, X86 using QEMU/KVM. Additionally, we also got a [docker image]()  to work for the agl-demo-control-panel thanks to [Lisandro Pérez Meyer](https://www.ics.com/author/lisandro-perez-meyer).
 - I also learned a lot more about the Automotive Grade Linux organization, its development tools, workflow, and pipeline.
 ### # Post GSoC
 

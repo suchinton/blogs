@@ -2,7 +2,7 @@
 title: "Week 11 Progress Report"
 date: 2023-08-13
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week11/GSOC Report IMG.png
+- /images/WPR/Week11/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post

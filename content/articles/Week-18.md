@@ -2,7 +2,7 @@
 title: Week 18 Progress Report
 date: 2023-09-27T14:39:31+05:30
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week18/GSOC Report IMG.png
+  - /images/WPR/Week18/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -29,14 +29,14 @@ Changes pushed so far:
 This week I worked to simplify the settings page and add new icons to better shop connection to the server, auto-refresh the status after the reconnect button is pressed, and better showcase the available options for the Steering wheel signals.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-	<img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week18/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
+	<img src="/images/WPR/Week18/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-	<img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week18/IMG2.png"height="auto" width="100%" style="border-radius: 10px;">
+	<img src="/images/WPR/Week18/IMG2.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 <div style="display: flex; flex-direction: column; align-items: center;">
-	<img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week18/IMG3.png"height="auto" width="100%" style="border-radius: 10px;">
+	<img src="/images/WPR/Week18/IMG3.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## Databroker

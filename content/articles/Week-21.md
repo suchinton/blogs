@@ -2,7 +2,7 @@
 title: Week 21 Progress Report
 date: 2023-10-23T14:48:24+05:30
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week21/GSOC Report IMG.png
+  - /images/WPR/Week21/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week

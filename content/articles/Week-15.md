@@ -2,7 +2,7 @@
 title: Week 15 Progress Report
 date: 2023-09-09
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week15/GSOC Report IMG.png
+  - /images/WPR/Week15/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post

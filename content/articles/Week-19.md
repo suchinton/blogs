@@ -2,7 +2,7 @@
 title: Week 19 Progress Report
 date: 2023-10-09T16:13:53+05:30
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week19/GSOC Report IMG.png
+  - /images/WPR/Week19/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week

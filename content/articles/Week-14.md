@@ -2,7 +2,7 @@
 title: Week 14 Progress Report
 date: 2023-09-02
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week14/GSOC Report IMG.png
+  - /images/WPR/Week14/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week
@@ -74,15 +74,15 @@ I also updated the icons being used, from feather icons to carbon icons, and rem
 
 Updated Look
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week14/IC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week14/IC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week14/HVAC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week14/HVAC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week14/SC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week14/SC_Demo.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 ## # Animated Navigation of Control Panel
 
@@ -92,7 +92,7 @@ The `QEasingCurve.OutCubic` easing curve is used to make the transition smooth
 
 Additionally, I also added an animation to move in and out of the Dashboard such that the Navigation bar collapses when in the Dashboard as the user can use the navigation tiles instead. 
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week14/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week14/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ---

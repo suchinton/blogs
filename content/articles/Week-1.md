@@ -2,7 +2,7 @@
 title: "Week 1 Progress Report"
 date: 2023-06-03
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/GSOC Report IMG.png
+- /images/WPR/Week1/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -79,7 +79,7 @@ Next, we authorize the client using a `JWT` access token, usually found at `$HOM
 
 here is a look at how the [AGL-Kuksa.val-Visualiser](https://github.com/suchinton/AGL-Kuksa.val-Visualiser) application interacts with the [IC](https://github.com/aakash-s45/ic) demo application.
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/IC_control.gif" height="auto" width="550px" style="border-radius: 10px;">
+  <img src="/images/WPR/Week1/IC_control.gif" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
 ## # Navigation Input For IC Demo App
@@ -102,7 +102,7 @@ The program has several methods such as 
 These methods are used for fetching suggestions from [OpenStreetMap](https://www.openstreetmap.org/#map=5/21.843/82.795), displaying suggestions, displaying the location on the map, updating the map, and creating HTML code for the map.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/navigation.png" height="auto" width="550px" style="border-radius: 10px;">
+  <img src="/images/WPR/Week1/navigation.png" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
 The implementation of this feature can be improved in the coming weeks for setting the marker/ address more accurately.
@@ -114,7 +114,7 @@ Finally, I got to start working on the skeletal code of the main application usi
 All new widgets created for the AGL demo apps will be added as separate modules to increase the customization and maintainability  of the whole application.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week1/design_preview.png" height="auto" width="550px" style="border-radius: 10px;">
+  <img src="/images/WPR/Week1/design_preview.png" height="auto" width="550px" style="border-radius: 10px;">
 </div>
 
 ## # What Next?

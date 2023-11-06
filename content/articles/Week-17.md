@@ -2,7 +2,7 @@
 title: Week 17 Progress Report
 date: 2023-09-25T16:57:31+05:30
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week17/GSOC Report IMG.png
+  - /images/WPR/Week17/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post

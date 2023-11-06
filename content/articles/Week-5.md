@@ -2,7 +2,7 @@
 title: "Week 5 Progress Report"
 date: 2023-07-01
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/GSOC Report IMG.png
+- /images/WPR/Week5/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -25,7 +25,7 @@ Triggers for this operation can be done by the following inputs:
 - Click and hold
 - Space bar (Can be mapped to a different key as well)
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/Demo_Acc.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week5/Demo_Acc.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ## # Script Mode
@@ -50,7 +50,7 @@ These Buttons are yet to be assigned any actions and are highly subject to chang
 
 The Navigation Page was revisited to improve its usability and operations, It can now provide recommendations for `Source` and  `Destination` addresses for navigation, live as they are being typed.
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week5/Demo_Nav.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week5/Demo_Nav.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ---

@@ -2,7 +2,7 @@
 title: Week 20 Progress Report
 date: 2023-10-16T14:34:21+05:30
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week20/GSOC Report IMG.png
+  - /images/WPR/Week20/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week
@@ -40,10 +40,10 @@ The main UI of the `AGL Demo Control Panel` saw some quality and functional chan
 - Settings page was revised to follow a 2 column layout to make the preferences more accessible and legible.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-	<img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week20/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
+	<img src="/images/WPR/Week20/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week20/VID1.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week20/VID1.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ---

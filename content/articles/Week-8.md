@@ -2,7 +2,7 @@
 title: "Week 8 Progress Report"
 date: 2023-07-19
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week8/GSOC Report IMG.png
+- /images/WPR/Week8/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -93,7 +93,7 @@ class FeedKuksa(QThread):
 This week I also added a visibility setting for the various pages of the `AGL_Demo_Control_Panel` which allows specific pages and their corresponding navigation buttons to be visible as per the user preference.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week8/IMG.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week8/IMG.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 

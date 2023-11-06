@@ -2,7 +2,7 @@
 title: "Week 2 Progress Report"
 date: 2023-06-09
 images: 
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/GSOC Report IMG.png
+- /images/WPR/Week2/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -133,7 +133,7 @@ The impedimented settings menu was made keeping certain requirements in mind, su
 _Note: The StyleSheet is yet to be updated for the Settings Window_
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/settings_demo.gif" height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week2/settings_demo.gif" height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # Kuksa Signals for IC Application
@@ -149,7 +149,7 @@ As a consequence, the app is more responsive, and also the values fed to kuksa-v
 The signal paths specified for the application comply with the recently released [VSS 3.1.1. being used by KUKSA.val 0.3.1](https://github.com/eclipse/kuksa.val/releases). 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week2/IC_controls.gif" height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week2/IC_controls.gif" height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 _Note_: During this week's GSoC meeting, my mentors mentioned that since AGL does not, for the time being, use any navigation APIs, We have decided to make the Navigation Widget (mentioned in last week's report)  an optional module.

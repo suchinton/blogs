@@ -2,7 +2,7 @@
 title: "Week 6 Progress Report"
 date: 2023-07-06
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week6/GSOC Report IMG.png
+- /images/WPR/Week6/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -36,7 +36,7 @@ The layout of these controls will be further improved by making use of custom ic
 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-26.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-26.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # Settings Page and Error handling
@@ -44,7 +44,7 @@ The layout of these controls will be further improved by making use of custom ic
 I also revised the styling of the QLineEdit and QPushbuttons for the settings page to make it look cleaner and make the text more legible. This also includes placeholder text for the input fields.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-12.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-12.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # Navigation Page
@@ -55,7 +55,7 @@ The navigation page received some major changes this week including,
 - UI 
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-02.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week6/Screenshot%20from%202023-07-11%2003-26-02.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # README & Troubleshooting

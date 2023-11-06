@@ -2,7 +2,7 @@
 title: Week 22 Progress Report
 date: 2023-10-28
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week22/GSOC Report IMG.png
+  - /images/WPR/Week22/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week

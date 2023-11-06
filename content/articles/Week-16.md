@@ -2,7 +2,7 @@
 title: Week 16 Progress Report
 date: 2023-09-16
 images:
-  - https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week16/GSOC Report IMG.png
+  - /images/WPR/Week16/GSOC Report IMG.png
 ---
 ### # Topics To Be Covered In This Post
 - What I did this week

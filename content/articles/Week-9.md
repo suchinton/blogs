@@ -2,7 +2,7 @@
 title: "Week 9 Progress Report"
 date: 2023-07-30
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week9/GSOC Report IMG.png
+- /images/WPR/Week9/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -20,7 +20,7 @@ images:
 This week I switched the navigation bar from a vertical layout to a horizontal layout to make navigation more intuitive and accessible. I am currently working on revising the animation of the button sizes.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week9/IMG.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week9/IMG.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # Acceleration Function

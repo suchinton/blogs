@@ -2,7 +2,7 @@
 title: GSoC Community Bonding Period
 date: 2023-05-26
 images: 
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/CBP/CBP.png
+- /images/CBP/CBP.png
 ---
 
 ### # Topics To Be Covered In This Post

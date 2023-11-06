@@ -2,7 +2,7 @@
 title: "Week 7 Progress Report"
 date: 2023-07-13
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week7/GSOC Report IMG.png
+- /images/WPR/Week7/GSOC Report IMG.png
 ---
 
 
@@ -20,7 +20,7 @@ images:
 This week I was able to finalize the layout and VSS paths to be used for the Steering Wheel Page, this shall remain subject to further improvements and revisions.
 
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week7/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
+  <img src="/images/WPR/Week7/IMG1.png"height="auto" width="100%" style="border-radius: 10px;">
 </div>
 
 ## # AGL_Demo_Control_Panel Against AGL Image on RPi 4

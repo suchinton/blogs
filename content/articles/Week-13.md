@@ -2,7 +2,7 @@
 title: "Week 13 Progress Report"
 date: 2023-08-26
 images:
-- https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week13/GSOC Report IMG.png
+- /images/WPR/Week13/GSOC Report IMG.png
 ---
 
 ### # Topics To Be Covered In This Post
@@ -22,7 +22,7 @@ This week I added support for subscribing to `VSS Signals` for the `IC` and `HVA
 
 I also replaced the checkbox inputs for `Insecure Mode` and `CAN to Kuksa` toggles with animated toggle switches, Making the inputs more touch friendly and easy to understand.
 
-<video src="https://raw.githubusercontent.com/suchinton/blogs/main/images/WPR/Week13/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
+<video src="/images/WPR/Week13/Demo.mp4" controls="controls" style="max-width: auto; border-radius: 10px">
 </video>
 
 ## # Kuksa-client 0.4.0
