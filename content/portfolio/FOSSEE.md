@@ -1,8 +1,7 @@
 ---
 title: Semester-long Intern at FOSSEE, IIT Bombay (February - May 2023)
-date: 2023-05-05
 images: 
-- /images/FOSSEE/Logo.png
+- /images/FOSSEE/FOSSEE_Logo.png
 description: FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools in academia and research. 
 ---
 
@@ -22,6 +21,10 @@ FOSSEE is a project developed at IIT Bombay that promotes the use of FLOSS tools
 2. **eSim-Tool-Manager:** It works to resolve various eSim dependencies, such as KiCad, Ngspice, Verilator, Makerchip, GHDL, and OpenModelica by installing them as modules based on the user's preferences/ use cases. My work focused on adding general Linux support to the tool and writing install scripts for the various modules.
 
 	→ [View Project](https://github.com/suchinton/eSim-tool-manager)
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="/images/FOSSEE/Comp_Cert.png"height="auto" width="100%" style="border-radius: 10px;">
+</div>
 
 → [View Report](https://static.fossee.in/fossee/reports-2023/semester_long_internship_2023/eSim/eSim_Suchinton_Chakravarty.pdf)
 
