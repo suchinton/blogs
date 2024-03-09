@@ -8,3 +8,5 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "public/"]
+	url = https://github.com/suchinton/suchinton.github.io
