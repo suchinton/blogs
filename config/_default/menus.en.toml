@@ -32,11 +32,9 @@
   pageRef = "portfolio/FOSSEE.md"
   weight = 20
 
-# [[main]]
-#  name = "Resume"
-#  parent = "Portfolio"
-#  pageRef = "portfolio/Resume.md"
-#  weight = 30
+[[main]]
+  name = '{{< icon "rss" >}}'
+  page = "articles/index.xml"
 
 
 #[[subnavigation]]
