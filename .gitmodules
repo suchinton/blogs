@@ -1,6 +1,7 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/suchinton/suchinton.github.io
+	branch = main
 [submodule "themes/digitalgarden"]
 	path = themes/digitalgarden
 	url = https://github.com/apvarun/digital-garden-hugo-theme.git
