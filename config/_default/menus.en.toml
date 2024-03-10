@@ -34,13 +34,13 @@
 
 [[main]]
   name = '{{< icon "rss" >}}'
-  page = "articles/index.xml"
+  url = "https://suchinton.github.io/index.xml#feed"
 
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+# [[subnavigation]]
+#   name = "An interesting topic"
+#   pageRef = "tags/AGL"
+#   weight = 10
 
 #[[subnavigation]]
 #  name = "My Awesome Category"
@@ -53,10 +53,10 @@
 #  pageRef = "categories"
 #  weight = 20
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
 
 
 # -- Footer Menu --
