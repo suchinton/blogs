@@ -39,12 +39,12 @@ defaultBackgroundImage = "img/BG2.png" # used as default for background images
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/BG2.png" # used in: hero, and card
   showRecent = true
-  showRecentItems = 3
-  showMoreLink = false
-  showMoreLinkDest = "/posts"
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/articles"
   cardView = true
-  cardViewScreenWidth = true
-  layoutBackgroundBlur = false # only used when layout equals background
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
@@ -87,7 +87,7 @@ defaultBackgroundImage = "img/BG2.png" # used as default for background images
   showTableOfContents = true
   showCards = true
   groupByYear = true
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
 

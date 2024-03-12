@@ -1,15 +1,5 @@
 #
 
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="/images/Suchinton/Profile-Pic.jpg" height="auto" width="200" style="border-radius:20%;">
-  <p style="text-align: center;font-style: italic;">
-    Suchinton Chakravarty <br> 
-    Linux Enthusiast <br> 
-    GSoC '23 @ AGL <br> 
-    eSim-intern 2023, IIT Bombay <br>
-    </p>
-</div>
-
 
 I am a 4th-year student at _[Amity University Noida](https://www.amity.edu)_, pursuing a B.Tech degree in Computer Science & Engineering. I am passionate about Linux and open-source software and love to tinker with new technologies and learn new things whenever I can.
 
@@ -25,7 +15,3 @@ I love talking about all things tech, science and sci-fi. From the coolest inven
   - Playing football (soccer) and table tennis
   - Programming 
   - Desktop Application Development
-
-→ [View my Portfolio](/portfolio): To be updated soon!
-
-

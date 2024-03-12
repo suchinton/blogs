@@ -16,7 +16,7 @@ title = "Suchinton's Hub"
 [author]
   name = "Suchinton Chakravarty"
   image = "img/Profile-Pic.jpg"
-  headline = "Hello There!🖐"
+  headline = ""
   bio = "Welcome to my Blog Post Website!"
   links = [
      { email = "mailto:suchinton.2001@gmail.com" },
