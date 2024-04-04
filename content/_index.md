@@ -7,5 +7,4 @@ title: Homepage
   lifeLike=true
 >}}
 Hello There! 🖐
-Welcome to my website.
 {{< /typeit >}}
