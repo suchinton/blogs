@@ -4,16 +4,6 @@ date: 2024-06-02T23:18:30+05:30
 tags: ["GSoC 2024", "AGL", "The Linux Foundation", "GSoC '24 WPR"]
 ---
 
-
-## # Topics To Be Covered In This Post
-- What I did this week
-	- Migrated from PyQt5 to PyQt6/PySide6.
-	- Patched Animated Toggle Module to work with PyQt6.
-	- Updated the README to include new steps for compiling resources.
-- Conclusion
-- What I plan to do next 
----
-
 ##  # Migrated from PyQt5 to PyQt6/PySide6.
 
 This week, our focus was on porting the UI framework of the AGL Demo Control Panel from Qt5 to Qt6. The migration process was relatively straightforward since the syntax changes between PyQt5 and PyQt6 are minimal.

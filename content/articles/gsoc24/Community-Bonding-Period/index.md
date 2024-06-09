@@ -4,16 +4,6 @@ date: 2024-05-20T23:54:54+05:30
 tags: ["GSoC 2024", "AGL", "The Linux Foundation", "Community Bonding Period"]
 ---
 
-
-## # Topics To Be Covered In This Post
-- What is the Community bonding period?
-- What I did the past month
-- Challenges faced
-- Community interactions
-- What I plan to do next 
-
----
-
 ## What is GSoC & What Have I Been Up To During The CBP?
 
 Google Summer of Code (GSoC) is a global program that offers students an opportunity to contribute to open-source projects. The program is sponsored by Google and has been running since 2005. The program aims to bring together students and open-source organizations to work on real-world projects. The program has three phases: the community bonding period, the coding period, and the final evaluation period.
