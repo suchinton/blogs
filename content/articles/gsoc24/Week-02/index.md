@@ -54,4 +54,4 @@ I have also started updating the Docker File to run the Qt6 port of the Control 
 
 - Continue work on file playback using CARLA
 - Push updated Docker File
-- Add new signals to fetch tire pressure
+- Add new signals to fetch tyre pressure
