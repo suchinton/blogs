@@ -56,6 +56,10 @@ class convert_to_can(object):
     .
 ```
 
+Next week I will continue working on and writing it into a CAN-dump file along with its timestamp for playback purposes.
+
+This CAN dump file will be used by the [AGL Demo Control Panel](https://gerrit.automotivelinux.org/gerrit/c/src/agl-demo-control-panel/) to feed data into the CAN interface using `python-can`.
+
 ## Next Week Tasks:
 
 - Continue work on file playback using CARLA.
