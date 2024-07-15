@@ -1,7 +1,7 @@
 ---
 title: "Week 07"
 date: 2024-07-13T20:55:15+05:30
-images:
+tags: ["GSoC 2024", "AGL", "The Linux Foundation", "GSoC '24 WPR"]
 ---
 
 ## Tasks Completed:
