@@ -1,5 +1,5 @@
 ---
-title: "Week 13  Progress Report"
+title: "Week 13 Progress Report"
 date: 2024-08-24T21:47:16+05:30
 tags: ["GSoC 2024", "AGL", "The Linux Foundation", "GSoC '24 WPR"]
 ---
