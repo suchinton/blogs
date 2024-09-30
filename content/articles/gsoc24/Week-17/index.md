@@ -6,7 +6,7 @@ tags: ["GSoC 2024", "AGL", "The Linux Foundation", "GSoC '24 WPR"]
 
 ## Tasks Completed:
 
-During the fifteenth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the `AGL-Demo-Control-Panel`. Below, I provide detailed information about the tasks completed, documentation updates, and plans for the upcoming week.
+During the seventeenth week of my Google Summer of Code (GSoC) project, I continued working on refactoring developing the UI elements and the Keypad features for the `AGL-Demo-Control-Panel`. Below, I provide detailed information about the tasks completed, documentation updates, and plans for the upcoming week.
 
 ### # (WIP) New QML UI
 
