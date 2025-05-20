@@ -1,17 +1,11 @@
 #
 
+I’m a Computer Science & Engineering graduate from _[Amity University Noida](https://www.amity.edu)_, passionate about Linux, open-source technologies, and software development. I love building tools, experimenting with systems, and contributing to meaningful tech communities.
 
-I am a 4th-year student at _[Amity University Noida](https://www.amity.edu)_, pursuing a B.Tech degree in Computer Science & Engineering. I am passionate about Linux and open-source software and love to tinker with new technologies and learn new things whenever I can.
+I’m a two-time _[Google Summer of Code](https://summerofcode.withgoogle.com)_ contributor under __Automotive Grade Linux (AGL), a The Linux Foundation project__, where I developed Qt-based applications to simulate CAN Bus signals. I also interned as an SDE at _[FOSSEE, IIT Bombay](https://fossee.in)_, contributing to the eSim platform, a free and open-source EDA tool, where I worked on installer tooling and Flatpak packaging.
 
-Currently, I am a contributor to GSoC '23 at AGL under The Linux Foundation, and working on implementing a Qt5 application that can simulate CAN Bus signals using Kuksa.val. You can find my weekly updates on the project by following the _[GSoC 23 Blog](/articles/)_ section. You can also subscribe to my _[RSS feed](/articles/index.xml)_ to get quick updates on the same 
+Currently, I work as a Global Technical Support Engineer at _[Ciena](https://www.ciena.com)_, where I handle network configuration, issue triage, Linux environments, and support for telecom-grade systems.
 
-I have also experience as a software developer intern at _[FOSSEE, IIT Bombay](https://fossee.in)_, where my main tasks revolved around implementing installer applications for the eSim platform. I gained a lot of knowledge about Flatpak packaging and sand-boxed environments.
+Outside of tech, I enjoy playing guitar, football, table tennis, and diving into science fiction and new discoveries.
 
-I love talking about all things tech, science and sci-fi. From the coolest inventions, to the most amazing discoveries, to the most mind-blowing stories, I’m always on the lookout for new and exciting things to learn and share.
-
-### Hobbies & interest
-
-  - I love playing the guitar and listening to music
-  - Playing football (soccer) and table tennis
-  - Programming 
-  - Desktop Application Development
+You can subscribe to my _[RSS feed](/articles/index.xml)_ to get quick updates on the same 

@@ -21,16 +21,22 @@
 #  weight = 20
 
 [[main]]
+  name = "GSoC 2024"
+  parent = "Portfolio"
+  pageRef = "portfolio/GSoC_2024.md"
+  weight = 10
+
+[[main]]
   name = "GSoC 2023"
   parent = "Portfolio"
   pageRef = "portfolio/GSoC_2023.md"
-  weight = 10
+  weight = 20
   
 [[main]]
   name = "FOSSEE"
   parent = "Portfolio"
   pageRef = "portfolio/FOSSEE.md"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "About Me"
