@@ -50,9 +50,9 @@ Outside of tech, I enjoy playing guitar, football, table tennis, and diving into
 
 I believe in building things that last—and that starts with continuous learning. I stay curious by:
 
-- Exploring new technologies and protocols  
-- Engaging with open-source communities and projectsd 
-- Sharing through documentation, and occasional tech talks
+- Exploring new technologies and skills  
+- Engaging with open-source communities and projects 
+- Sharing through documentation and occasional tech talks
 
 ---
 
