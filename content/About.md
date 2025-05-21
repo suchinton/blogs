@@ -1,10 +1,13 @@
-#
+---
+title: About Me
+date: 2025-05-01
+---
 
 I’m a Computer Science & Engineering graduate from _[Amity University Noida](https://www.amity.edu)_, passionate about Linux, open-source technologies, and software development. I love building tools, experimenting with systems, and contributing to meaningful tech communities.
 
 I’m a two-time _[Google Summer of Code](https://summerofcode.withgoogle.com)_ contributor under __Automotive Grade Linux (AGL), a The Linux Foundation project__, where I developed Qt-based applications to simulate CAN Bus signals. I also interned as an SDE at _[FOSSEE, IIT Bombay](https://fossee.in)_, contributing to the eSim platform, a free and open-source EDA tool, where I worked on installer tooling and Flatpak packaging.
 
-Currently, I work as a Global Technical Support Engineer at _[Ciena](https://www.ciena.com)_, where I handle network configuration, triage issues and troubleshoot on Linux environments, and provide support for Network Management Systems.
+Currently, I work as a Global Technical Support Engineer at _[Ciena](https://www.ciena.com)_, where I handle live network issues, triage and troubleshoot on Linux environments, and provide support for Network Management Systems.
 
 Outside of tech, I enjoy playing guitar, football, table tennis, and diving into science fiction and new discoveries.
 
@@ -12,9 +15,11 @@ Outside of tech, I enjoy playing guitar, football, table tennis, and diving into
 ---
 
 ## 🏆 Highlights & Achievements
+- 🏅 **Recognition at Ciena**  
+  Acknowledged within the **Global Customer Care (GCC)** team for consistent, detail-oriented problem solving and a methodical approach to complex network issues. Praised for structured investigations and technical ownership in customer-impacting scenarios.
 
 - 🌍 **Google Summer of Code 2023 & 2024**  
-  Contributed to AGL with gRPC & Ethernet-based feature development on the YOCTO platform, recognized by the global open-source community.
+  Contributed to AGL with gRPC/websocket based feature development on the __YOCTO__ platform, recognized by the global open-source community.
 
 - 🎤 **Conference Speaker**  
   Presented at **AGL All Members Meet Japan 2024** and **Open Source Summit Japan 2023** on Linux systems and embedded software.
@@ -31,7 +36,7 @@ Outside of tech, I enjoy playing guitar, football, table tennis, and diving into
 
 ---
 
-## 🧠 Core Competencies
+## 🧠 Core Competencies  
 
 | **🔖 Category**                        | **Skills**                                                                                         |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------- |
